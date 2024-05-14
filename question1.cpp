@@ -5,7 +5,7 @@ int main()
 {
 
        int x;
-       int *ptr;
+       int *ptr; // wild pointer uninitilized pointer
        x = 7;
        ptr = &x;
        cout<<*ptr<<endl;//7 here * is not pointer * is deference operator
